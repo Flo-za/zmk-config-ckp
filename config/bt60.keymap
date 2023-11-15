@@ -32,7 +32,7 @@
 				&trans &trans &kp UP &trans &kp NON_US_HASH &trans &trans &trans &trans &trans &kp C_RW &kp C_PAUSE &kp C_FF &rgb_ug RGB_TOG
 				&kp CAPS    &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans &trans &trans &trans &kp HOME  &kp PG_UP   &bootloader
 				&kp C_AL_LOGOFF &kp C_VOL_DN &kp C_VOL_UP &kp C_MUTE &bl BL_DEC &bl BL_INC &trans &trans &trans &kp C_AC_DESKTOP_SHOW_ALL_WINDOWS &kp VOICE_COMMAND  &bl BL_TOG
-				&bt BT_SEL0 &bt BT_SEL1  &bt BT_SEL2              &bt BL_SEL3               &bt BL_SEL4   &trans   &sys_reset &bt BT_CLR
+				&bt BT_SEL(0) &bt BT_SEL(1)  &bt BT_SEL(2)              &bt BL_SEL(3)               &bt BL_SEL(4)   &trans   &sys_reset &bt BT_CLR
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
